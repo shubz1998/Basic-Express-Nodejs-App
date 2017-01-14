@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+
+<% if(msg != "" ) %>
+    <%= msg%>
+
+<h1>LOGIN</h1>
+<form method="post" action="/login">
+    <p>Enter Username : <input type="text" name="username"></p>
+    <p>password: <input type="password" name="password"></p>
+
+    <input type="submit" value="LOGIN">
+</form>
+
+</body>
+</html>
